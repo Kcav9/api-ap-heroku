@@ -5,7 +5,7 @@ var cors = require('cors');
 app.use(
     cors({
         credentials: true,
-        origin: 'https://heuristic-nightingale-64b9f0.netlify.app/'
+        origin: 'https://heuristic-nightingale-64b9f0.netlify.app'
     })
 );
 app.options('*', cors());
